@@ -221,9 +221,64 @@ button {
         border-radius: 4px;
         min-width: 175px;
         height: 53px;
+        border: none;
 
         background: #02897a;
         display: block;
         margin: 0 auto;
         text-transform: uppercase;
+}
+
+/* management */
+
+.management {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.menagement-title {
+    font-size: 32px;
+}
+ 
+.menagement-list {
+}
+
+.menagement-item {
+}
+
+.menagement-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menagement-item-content {
+    padding-right: 84px;
+    
+}
+
+.menagement-content-text {
+    font-size: 16px;
+    max-width: 486px;
+    margin-bottom: 8px;
+}
+
+.menagement-content-title {
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 25px;
+}
+
+.menagement-content-text-group {
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.menagement-content-list {
+}
+
+.menagement-content-item {
+}
+
+.menagement-content-item-title {
 }
